@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/detalhesStyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/js/detalhesScript.js"></script>
+    <title>Detalhes do livro</title>
+</head>
+
+<body>
+    <nav class="cabecalho">
+        <div class="container">
+
+            <img src="/css/logo.svg" alt="logo" height="50">
+
+            <a href="/inicio">Retornar à tela principal</a>
+
+        </div>
+    </nav>
+
+    <h1>Sistema de Estoque de Livraria</h1>
+    <h2>Informações do Livro</h2>
+
+    <main>
+        <div class="info">
+            <p>Título: <span id="titulo">Título Exemplo</span></p>
+            <p>Autor: <span id="autor">Autor Teste</span></p>
+            <p>Gênero: <span id="genero">Terror</span></p>
+            <p>Ano de lançamento: <span id="ano">2015</span></p>
+            <p>Unidades em estoque: <input type="number" min="0" value="2" id="estoque"> <button id="atualizar" class="btn btn-primary">Atualizar</button></p>
+            <p>Descrição: <span id="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, fugit
+                    magni, architecto soluta ad quo exercitationem reiciendis iure rem porro quibusdam! Animi earum
+                    reiciendis veritatis voluptas quia possimus dignissimos officia!</span></p>
+        </div>
+    </main>
+
+</body>
+
+</html>
