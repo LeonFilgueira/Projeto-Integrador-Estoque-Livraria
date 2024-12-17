@@ -2,7 +2,7 @@ $(document).ready(function () {
     
 
     jQuery.validator.addMethod("lettersonly", function(value, element) {
-        return this.optional(element) || /^[a-zA-Z\s]*$/.test(value);
+        return this.optional(element) || /^[a-zA-Z\s.]*$/.test(value);
       }, "Letters only please"); 
 
     $('#formLivro').validate({
